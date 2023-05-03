@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1300px;
+  margin: 150px auto;
+}
+
+form {
+  background-image: url('https://i.etsystatic.com/31418760/r/il/ae0287/3619293443/il_fullxfull.3619293443_qklt.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  outline: 7px solid rosybrown;
+  border-radius: 4px;
+  margin: auto;
+  width: 720px;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 20px 280px;
+}
+form div:not(:last-child){
+  margin-bottom: 40px;
+}
+form div {
+  background-color: rgba(226, 223, 43, 0.279);
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+}
+form div label {
+  font-size: 20px;
+  color: white;
+}
+
+form div input {
+  border: 3px solid #ffc107;
+  outline: none;
+  border-radius: 9px;
+  width: 300px;
+}
+ input[type=submit] {
+  cursor: pointer;
+  background-color: #f1c02c;
+  padding: 15px;
+  border-radius: 9px;
+  font-weight: 500;
+  margin-left: 20px;
+  border: none;
+  box-shadow: 2px 3px 1px grey;
+}
+input[type=submit]:hover {
+  opacity: 0.9;
+}
+
+/* ****************************PRODUCTS*************************** */
+.product-card {
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  height: fit-content;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  background-image: url('https://e0.pxfuel.com/wallpapers/912/823/desktop-wallpaper-black-ipad-ipad-mini-2-thumbnail.jpg');
+}
+.product-card h3 {
+  text-align: center;
+}
+.product-card .forPname, .forPdesc, .forPprice {
+  margin-left: 20px;
+}
+.product-card .forPprice button {
+  background-color: rgba(245, 162, 7, 0.647);
+}
+.product-card .forPprice p a {
+  color: rgb(51, 170, 51);
+  font-size: 20px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0px 6px;
+}
+
+.product-card .forPprice button {
+  float: right;
+}
+.product-card .forPimg {
+  background-color: white;
+  width: 350px;
+  overflow: hidden;
+  margin: auto;
+}
+.product-card .forPimg img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
